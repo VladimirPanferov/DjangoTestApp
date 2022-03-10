@@ -22,5 +22,4 @@ from django.urls import (
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", include("hello_world.urls")),
 ]
