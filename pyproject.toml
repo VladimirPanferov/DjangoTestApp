@@ -8,6 +8,7 @@ authors = ["Vladimir Panferov <v3nseagal@gmail.com>"]
 python = "^3.9"
 Django = {extras = ["all"], version = "^4.0.2"}
 psycopg2-binary = "^2.9.3"
+Pillow = "^9.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
